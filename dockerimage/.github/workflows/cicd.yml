@@ -49,7 +49,7 @@ jobs:
             password: ${{ secrets.DOCKER_PASSWORD }}
 
     
-        - name: Build and push Docker image to Docker hub
+        - name: Build and push Docker image to DockerHub
           uses: docker/build-push-action@v4
           with:
             context: .
